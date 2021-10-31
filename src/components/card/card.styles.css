@@ -3,13 +3,14 @@
   flex-direction: column;
   background-color: #95dada;
   border: 1px solid grey;
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 25px;
   cursor: pointer;
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+  border: 4px solid rgba(7, 27, 82, 1);
 }
 
 .card-container:hover {
